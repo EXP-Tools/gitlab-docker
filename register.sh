@@ -3,7 +3,7 @@
 
 TOKEN=$1
 if [ -z "${TOKEN}" ] ; then
-    echo "Usage: .\register.ps1 TOKEN"
+    echo "Usage: .\register.sh TOKEN"
     echo "You can get the registration token from http://127.0.0.1/admin/runners"
     exit 1
 fi
